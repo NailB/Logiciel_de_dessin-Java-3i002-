@@ -1,0 +1,8 @@
+image: pobj2
+
+stages:
+- test
+
+test_job:
+  stage: test
+  script: ./scripts-ci/run.sh
